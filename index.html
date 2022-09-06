@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!--meta tags obrigatórias-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--link com as fontes google utilizadas-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--link com o arquivo css estilo principal-->
+  <link rel="stylesheet" href="./CSS/style.css">
+
+  <!--link bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+
+  <!--titulo do site-->
+  <title>THIAGO LEITE - CIENTISTA DE DADOS</title>
+
+  <!--meta tag usada pelos motores de busca - ajuda na descrição da página-->
+  <meta name="description" content="cientista de dados em formação residente no Rio de Janeiro">
+</head>
+
+<body>
+
+  <!--tag header - usada no topo da página, contem a logo e o menu-->
+  <header class="header">
+    <img src="./img/marca.svg" alt="logo Thiago Leite" width="204" height="138">
+    <nav>
+      <ul class="header-menu">
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portifolio">Portifólio</a></li>
+        <li><a href="#formulario">Fale comigo</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--main - tag com o conteúdo principal do site-->
+  <main class="introducao">
+    <img src="./img/perfil.png" alt="foto perfil Thiago Leite">
+    <div>
+      <h1>Cientista<br>de dados<br>em formação</h1>
+      <p>Localizado no Rio de Janeiro ⛱️</p>
+    </div>
+  </main>
+
+  <!--site dividido em seções menores-->
+    <section class="sobre" id="sobre" aria-label="Sobre">
+      <h2 class="subtitulo">Sobre mim</h2>
+      <div>
+        <p class="sobre-texto">
+          Meu nome é Thiago Leite, sou formado em Direito e estudante de Engenharia de Software, trabalho como Diretor Administrativo em uma empresa de Locação de Empilhadeiras.<br>
+          Atualmente, como diretor, trabalho na análise e tomada de decisões administrativas. Possuo a função de organizar, planejar e orientar a utilização dos recursos financeiros e físicos da companhia na busca pelos melhores resultados.<br>
+          Além disso, trabalho com projetos pessoais sobre <strong>Ciência de Dados</strong>, para adquirir experiência na solução de problemas de negócio e domínio sobre as ferramentas de análise de dados.
+        </p>
+    </section>
+
+    <section class="experiencia" id="experiencia" aria-label="Experiência">
+      <h2 class="subtitulo">Experiência</h2>
+        <div class="empresa">
+          <span class="empresa-ano">2013 - em andamento</span>
+          <h3 class="empresa-titulo">O Rei da Empilhadeira</h3>
+          <span class="empresa-titulo">Diretor Administrativo</span>
+          <p class="empresa-texto">Análise e tomada de decisões administrativas. Função de organizar, planejar e orientar a utilização dos recursos financeiros e físicos da companhia na busca pelos melhores resultados.</p>
+          <ul class="empresa-habilidade">
+            <li>Tomada de decisões</li>
+            <li>Planejamento</li>
+            <li>Organização</li>
+            <li>Gerenciamento</li>
+          </ul>
+        </div>
+
+        <div class="empresa">
+          <span class="empresa-ano">2011 - 2012</span>
+          <h3 class="empresa-titulo">Hotel Privê do Atalaia</h3>
+          <span class="empresa-titulo">Consultor de Marketing</span>
+          <p class="empresa-texto">Auxílio na elaboração de Plano de Marketing; Captação de recursos através de patrocínio direto e indireto; Restruturação de Imagem do Hotel; Fechamento de parcerias comerciais e atração de novos clientes; Auxilio no setor de eventos no sentido de captação de novos clientes e apresentação de melhores ambientes visuais
+          </p>
+          <ul class="empresa-habilidade">
+            <li>Captação de recursos</li>
+            <li>Reestruturação de imagem</li>
+            <li>Parcerias</li>
+            <li>Identidade visual</li>
+          </ul>
+        </div>
+
+        <div class="empresa">
+          <span class="empresa-ano">2008</span>
+          <h3 class="empresa-titulo">TW Produções e Eventos</h3>
+          <span class="empresa-titulo">Sócio-diretor</span>
+          <p class="empresa-texto">Sócio da empresa, atuando na realização, execução e suporte para eventos acadêmicos voltados ao curso de Direito. Coordenação de equipes de trabalho nas fases de pré-produção, execução e pós-evento. Realização de inúmeros eventos de porte nacional no Estado do Pará, em geral, voltados para o público acadêmico.</p>
+          <ul class="empresa-habilidade">
+            <li>Realização de eventos</li>
+            <li>Coordenação de equipe</li>
+            <li>Congressos</li>
+            <li>Suporte para eventos</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+      
+      <section class="formacao" id="formacao" aria-label="Formação">
+        <div class="formacao-container">
+          <h2 class="subtitulo">Formação</h2>
+
+          <div>
+            <p class="formacao-texto">Minha mais recente experiência acadêmica está sendo a <strong>graduação</strong> 🎓 que estou cursando em <strong>Engenharia de software</strong>. Além disso estou fazendo cursos extracurriculares como o Comunidade DS voltado para a área de <strong>Ciência de Dados</strong>.</p>
+
+            <ul class="faculdade-lista">
+              <li class="faculdade">
+                <span class="faculdade-tipo">Bacharel - concluído</span>
+                <h3 class="faculdade-curso">Direito</h3>
+                <span class="faculdade-instituicao">UNAMA</span>
+              </li>
+              <li class="faculdade">
+                <span class="faculdade-tipo">Bacharelado - cursando</span>
+                <h3 class="faculdade-curso">Engenharia de Software</h3>
+                <span class="faculdade-instituicao">UNINTER</span>
+              </li>
+              <li class="faculdade">
+                <span class="faculdade-tipo">Extensão - cursando</span>
+                <h3 class="faculdade-curso">Data Science</h3>
+                <span class="faculdade-instituicao">Comunidade DS</span>
+              </li>
+            </ul>
+
+            <div class="formacao-extra">
+              <div class="cursos">
+                <h3>Cursos intensivos</h3>
+                <ul>
+                  <li>Phyton<span>56h</span></li>
+                  <li>Power BI<span>72h</span></li>
+                 </ul>
+              </div>
+
+              <div class="idiomas">
+                <h3>Idiomas</h3>
+                <ul>
+                  <li>Inglês <span>/ Básico</span></li>
+                  <li>Espanhol <span>/ Intermediário</span></li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portifolio" id="portifolio" aria-label="Portifólio">
+          <h2 class="subtitulo">Portifólio</h2>
+          <div class="portifolio-texto">
+            <p>Para você conhecer melhor o meu trabaho, acesse o link abaixo para ter acesso ao meu portifólio.</p> 
+          
+    <!--botão criado com bootstrap e uma interação com javaScript ao clicar o botão-->
+  
+          <a href="https://tnleite.github.io/portfolio_projetos/" button type="button" class="btn btn-secondary" onclick="minhaFuncao()" type="button" class="btn btn-dark">CLIQUE AQUI</a>
+          <script>
+            function minhaFuncao(){
+              alert('ATENÇÃO VOCÊ ESTÁ SENDO DIRECIONADO PARA A PÁGINA DE PORTIFÓLIO DE THIAGO LEITE');
+             }
+          </script>
+ 
+          </div>
+      </section>
+
+      <section class="formulario">
+      <form class="formulario" action="" method="post">
+        <h3>Fale comigo</h3>
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" required>
+        </div>
+        
+        <div>
+          <label for="telefone">Telefone</label>
+          <input type="tel" name="telefone" id="telefone" required>
+        </div>
+        
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+       
+        <div>
+          <label for="mensagem">Deixe sua mensagem aqui</label>
+          <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+        </div>
+        
+        <!--botão criado com bootstrap-->
+        <button type="button" class="btn btn-dark">Enviar</button>
+
+      
+                        
+      </form>
+    </section>
+
+    <!--footer - rodapé da página com dados para contato-->
+  <footer class="footer" id="contato">
+    
+    <div class="footer-container">
+      <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋🏻</p>
+
+      
+      
+      <ul class="footer-contato">
+        <li>thiago.leit@hotmail.com</li>
+        <li> <a href="https://wa.me/5521964105121">+55 21 96410-5121</a></li>
+        <li><a href="https://www.instagram.com/tnleite/">@tnleite</a></li>
+      </ul>
+
+      <p class="footer-copy">Thiago Leite. Alguns direitos reservados</p>
+    </div>
+  </footer>
+</script>
+  
+</body>
+</html>

@@ -1,0 +1,37 @@
+/*estilo aplicado a section de classe "formulario"*/
+.formulario {
+  max-width: 1500px;
+  margin: 0 auto;
+  color: #525252;
+  padding: 40px 20px;
+  display: block;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/*estilo aplicado ao h3 que está dentro da section de classe "formulario"*/
+.formulario h3 {
+  color: #A3A3A3;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+}
+
+/*estilo aplicado para a legenda(label) de cada input do formulario. O display block foi inserido para que o nome fique em cima e a caixa de input embaixo*/
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/*estilo aplicado para ajustar/estilizar os campos do formulário de input e textarea*/
+.formulario input, textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+/*estilo aplicado para ajustar o tamanho de altura do campo textarea do formulário*/
+.formulario textarea{
+  height: 150px;
+}

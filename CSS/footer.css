@@ -1,0 +1,55 @@
+/*estilo aplicado para estilizar o footer/rodapé*/
+.footer {
+  background-color: #000;
+  color: #CCCCCC;
+}
+
+/*estilo aplicado para dividir em 2 colunas da div "footer-container"*/
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+/*estilo aplicado para formatar o p "footer-texto"*/
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+}
+
+/*estilo aplicado para formatar os itens da lista de contatos dentro do footer*/
+.footer-contato li {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+/*estilo aplicado para mudar a cor do link dentro da lista "footer-contato"*/
+.footer-contato li a {
+  color: #fff;
+  
+}
+
+/*estilo aplicado para ajustar o p de classe "footer-copy"*/
+.footer-copy {
+  grid-column: 1/ -1;
+  color: #8F8F8F;
+  font-size: 1.125rem;
+}
+
+/*estilo aplicado para telas de até 800px*/
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato li {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,26 @@
+/*estilo aplicado a section de classe "portifolio"*/
+.portifolio {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  gap: 100px;
+  background-color: #141414;
+}
+
+/*estilo aplicado para alterar a cor da fonte do h2 de classe "portifolio" que está dentro da section de classe "portifolio"*/
+.portifolio .subtitulo {
+  color: #A3A3A3;
+}
+
+/*estilo aplicado a div de classe "portifolio-texto"*/
+.portifolio-texto {
+  max-width: 32.6875rem;
+  margin-bottom: 60px;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  color: #f5f5f5;
+}
+

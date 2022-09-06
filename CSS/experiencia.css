@@ -1,0 +1,107 @@
+/*estilos aplicados a section "experiencia"*/
+.experiencia {
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #141414;
+  padding: 40px 20px;
+}
+
+/*estilos aplicados ao h2 dentro da section "experiencia"*/
+.experiencia h2 {
+  color: #A3A3A3;
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+}
+
+/*estilos aplicados a div "empresa"*/
+.empresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+
+/*estilos aplicados para colocar o detalhe azul nas div's "empresa"*/
+.empresa::before {
+  content: '';
+  display: block;
+  background: linear-gradient(180deg, #b9ffff 0%, #2196f3 100%);
+  width: 4px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+/*estilos aplicados para colocar o ano ao lado do span "empresa-ano"*/
+.empresa-ano {
+  position: absolute;
+  content: '';
+  left: -100px;
+  top: 22px;
+  color: #525252;
+  font-size: 0.875rem;
+  text-align: right;
+  width: 80px;
+}
+
+/*estilos aplicados ao h3 de classe "empresa-titulo"*/
+.empresa-titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+/*estilos aplicados ao p de classe "empresa-texto"*/
+.empresa-texto {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #525252;
+}
+
+
+/*estilos aplicados a lista (ul) de classe "empresa-habilidade"*/
+.empresa-habilidade {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+
+/*estilos aplicados ao item da lista (li) dentro da lista de classe "empresa-habilidade"*/
+.empresa-habilidade li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  padding: 5px 10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+/*estilo aplicado para telas de até 800px*/
+@media (max-width: 800px) {
+  .experiencia .subtitulo {
+    font-size: 2rem;
+  }
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+  .empresa-ano::before {
+    content: 'Ano: ';
+  }
+}
+
+/*estilo aplicado para telas de até 400px*/
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+}

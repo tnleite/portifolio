@@ -1,0 +1,45 @@
+/*estilo aplicado na section "sobre"*/
+.sobre {
+  max-width: 1500px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+}
+
+/*estilo aplicado ao h2 de classe "subtitulo" dentro da section "sobre"*/
+.sobre .subtitulo {
+  color: #8f8f8ff5;
+}
+
+/*estilo aplicado ao p de classe "sobre-texto" dentro da section "sobre"*/
+.sobre-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin-bottom: 60px;
+  max-width: 40ch;
+  color: #525252;
+}
+
+/*estilo aplicado a tag strong dentro da section "sobre"*/
+.sobre-texto strong {
+  color: #141414;
+}
+
+/*estilo aplicado para telas de até 800px*/
+@media (max-width: 800px) {
+  .sobre {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    
+  }
+  .sobre .subtitulo {
+    color: #141414;
+    font-size: 2rem;
+  }
+  .sobre-texto {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+}
